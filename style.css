@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+
+    a:hover {
+        color: brown;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: rgb(rgb(32, 204, 175), green, blue, alpha);
+
+    }
+         }

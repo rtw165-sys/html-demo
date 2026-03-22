@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>表單練習 </title>
-   
+    <title>表單練習</title>
 </head>
+
 <body>
-    <form action="" method="POST">
+    <form action="" method="GET">
         <label for="username">使用者名稱:</label>
         <input required type="text" id="username" name="username">
         <br>
@@ -18,9 +19,24 @@
         <input required type="email" id="email" name="email">
         <br>
         <label for="password">使用者密碼:</label>
-        <input placeholder=請輸入6~8不重複字元" required type="password" id="password" name="password">
+        <input placeholder="請入6~8不重複的字元" required type="password" id="password" name="password">
+        <br>
+
+        <input type="tel" placeholder="電話號碼">
+        <input type="url" placeholder="網址">
+        <!--  -->
+        <input type="checkbox" id="agree"> <label for="agree">我同意</label>
+        <input type="radio" name="gender" value="male" checked> 男
+        <input type="radio" name="gender" value="female">女
+        <!-- 殊型 -->
+        <input type="date"> <!-- ⽇期 -->
+        <input type="range" min="0" max="100" value="80"> <!-- 桿 -->
+        <input type="color"> <!--  -->
+        <input type="file"> <!-- 檔上傳 -->
+
         <button type="submit">註冊</button>
 
+<<<<<<< HEAD
         <input type="checkbox" id="agree"> <label for="agree">我同意</label>
             <input type="radio" name="gender" value="male"> 男
             <input type="radio" name="gender" value="female"> 女
@@ -33,3 +49,5 @@
     
 </body>
 </html>
+=======
+>>>>>>> 04e7260f5c0284ab3eb09058d22ca13d006e6c84
