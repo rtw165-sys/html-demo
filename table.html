@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>匯率網站</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            width: 80%;
+            margin: 12px auto;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border:1px solid deeppink;
+        }
+
+        th{
+            background-color: rgb(21, 0, 112);
+            color:white;
+            border:1px solid cyan;
+        }
+
+        tr:nth-child(even){
+            background-color: bisque;
+        }
+
+        td{
+            font-size: 0.8rem;
+        }
+
+    </style>
 </head>
 <body>
     <a href="index.html">回到首頁</a>
     <h1>匯率查詢</h1>
     <a href="https://rate.bot.com.tw/xrt?Lang=zh-TW">即期匯率</a>
-    <table border="1">
+    <table >
         <thead>
             <tr>
                 <th>幣別</th>
