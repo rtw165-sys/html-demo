@@ -2,27 +2,82 @@
 <html>
 <head>
 <title>我的第一個網頁</title>
+
+<link rel="stylesheet" href="style.css">
+<style>   
+    
+    #news{
+        color:blueviolet;
+    }  
+
+    #time{
+        display: inline-block;
+        font-size: 1rem;
+        color: aqua;
+        background-color: blue;
+        padding: 10px 12px 14px 18px;
+        border:6px solid tomato;
+        margin-bottom: 12px;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .content{
+        padding: 6px;
+        margin: 16px;
+        font-weight:bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: bisque;
+        border-radius: 12px;
+    }
+
+    #image{
+        text-align: center;
+        margin-top: 12px;
+
+    }
+
+    #image img{
+        border: 1px solid black;
+        padding: 6px;
+        background-color: white;
+    }
+
+    li{
+        list-style-type: none;
+    }
+    
+    
+</style>
+
 </head>
 <body>
-&copy;write by daisy
+&copy;write by jerry
 <h1>川普大點名！邀5國派軍艦「確保荷莫茲海峽安全」放話將繼續轟炸沿岸</h1>
-<h3>三立新聞網</h3>
-2026年3月15日 週日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上午12:46
-<p>
+<h3 id="news">三立新聞網</h3>
+<div id="time">2026年3月15日 週日 上午12:46</div>
+
+<div class="content">
     <u>美國總統川普</u>台灣時間今（15）日凌晨在社群發文，邀請因為伊朗關閉荷莫茲海峽受影響的國家合作，<br>
     派遣軍艦確保海峽的開放與安全，川普提到「希望<b>中國、法國、日本、南韓、英國</b>，以及其他受到這種人為限制影響的國家，<br>都能向該地區派遣軍艦，
     讓荷莫茲海峽不再受到一個已經被徹底斬首的國家威脅。」    
     川普在文中表示，<br>「與此同時，美國將對沿岸地區進行猛烈轟炸，並<s>持續將伊朗的船隻與快艇擊沉</s>。無論如何，<br>我們很快就會讓<mark>荷莫茲海峽</mark>重新開放、安全且自由通行。」
-</p>
+</div>
 <hr>
 <a target="_blank" title="yahoo新聞" href="https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E5%A4%A7%E9%BB%9E%E5%90%8D-%E9%82%805%E5%9C%8B%E6%B4%BE%E8%BB%8D%E8%89%A6-%E7%A2%BA%E4%BF%9D%E8%8D%B7%E8%8E%AB%E8%8C%B2%E6%B5%B7%E5%B3%BD%E5%AE%89%E5%85%A8-%E6%94%BE%E8%A9%B1%E5%B0%87%E7%B9%BC%E7%BA%8C%E8%BD%9F%E7%82%B8%E6%B2%BF%E5%B2%B8-164600338.html">新聞來源</a>
 <a href="https://www.youtube.com">youtube連結</a>
-<p>
+<div id="image">
 <img width="45%" alt="新聞圖片" src="https://s.yimg.com/ny/api/res/1.2/bpgkz39YwWiw7pasIuoNMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/zh-tw/setn.com.tw/7cee196a63813055030a21c814fb1667">
 <img width="45%" src="https://s.yimg.com/ny/api/res/1.2/fvv6XsHijfP.MxT6WQteHQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MQ--/https://media.zenfs.com/zh-tw/setn.com.tw/22af5e85138dfb6791e9784d587db4e9" alt="">
 
-</p>
+</div>
 <hr>
+<div class="content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium aspernatur a quas excepturi. Iure deleniti aspernatur, quidem fugit maxime, a dolorem maiores ad consequatur numquam doloribus totam. Officiis, provident!
+</div>
+
 <h2>其他新聞</h2>
 <ol type="1">
     <li>
